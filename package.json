@@ -1,6 +1,6 @@
 {
   "name": "redux-action-type-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Type validator for redux actions",
   "main": "lib/index.js",
   "repository": {
