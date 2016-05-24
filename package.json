@@ -1,0 +1,42 @@
+{
+  "name": "redux-action-type-validator",
+  "version": "1.0.0",
+  "description": "Type validator for redux actions",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/innowatio/redux-action-type-validator"
+  },
+  "scripts": {
+    "build": "babel src -d bundle",
+    "coverage": "NODE_ENV=test NODE_PATH=src babel-node $(npm bin)/isparta cover node_modules/mocha/bin/_mocha -- --recursive",
+    "dev": "npm test -- --watch",
+    "lint": "eslint src test",
+    "test": "NODE_PATH=src NODE_ENV=test mocha --compilers js:babel-core/register --recursive"
+  },
+  "keywords": [
+    "redux",
+    "tcomb",
+    "action",
+    "type-checking"
+  ],
+  "author": "Team Wattellina <wattellina@mondora.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.0",
+    "babel-eslint": "^6.0.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "chai": "^3.5.0",
+    "codecov": "^1.0.1",
+    "eslint": "^2.10.2",
+    "eslint-plugin-babel": "^3.2.0",
+    "isparta": "^4.0.0",
+    "mocha": "^2.5.2",
+    "tcomb": "^3.1.0"
+  },
+  "dependencies": {
+    "tcomb-validation": "^3.1.0"
+  }
+}
