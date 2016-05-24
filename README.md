@@ -1,4 +1,6 @@
+[![npm version](https://badge.fury.io/js/redux-action-type-validator.svg)](https://badge.fury.io/js/redux-action-type-validator)
 [![Build Status](https://travis-ci.org/innowatio/redux-action-type-validator.svg?branch=master)](https://travis-ci.org/innowatio/redux-action-type-validator)
+[![codecov](https://codecov.io/gh/innowatio/redux-action-type-validator/coverage.svg?branch=master)](https://codecov.io/gh/innowatio/redux-action-type-validator)
 [![Dependency Status](https://david-dm.org/innowatio/redux-action-type-validator.svg)](https://david-dm.org/innowatio/redux-action-type-validator)
 [![devDependency Status](https://david-dm.org/innowatio/redux-action-type-validator/dev-status.svg)](https://david-dm.org/innowatio/redux-action-type-validator#info=devDependencies)
 
