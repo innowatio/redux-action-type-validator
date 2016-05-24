@@ -15,11 +15,11 @@ import {list, String} from "tcomb";
 
 const typeofAction = actionTypeValidator(list(String));
 
-export function action (fullPath) {
+export function action (payload) {
     typeofSelectSite(...arguments);
     return {
         type: "ACTION_TYPE",
-        payload: fullPath
+        payload
     };
 }
 
