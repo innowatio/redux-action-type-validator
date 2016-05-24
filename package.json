@@ -2,13 +2,13 @@
   "name": "redux-action-type-validator",
   "version": "1.0.0",
   "description": "Type validator for redux actions",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/innowatio/redux-action-type-validator"
   },
   "scripts": {
-    "build": "babel src -d bundle",
+    "build": "babel src -d lib",
     "coverage": "NODE_ENV=test NODE_PATH=src babel-node $(npm bin)/isparta cover node_modules/mocha/bin/_mocha -- --recursive",
     "dev": "npm test -- --watch",
     "lint": "eslint src test",
