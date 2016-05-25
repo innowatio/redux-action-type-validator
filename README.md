@@ -8,6 +8,12 @@
 
 Type validator for redux actions
 
+##  Installation
+
+```sh
+npm i --save redux-action-type-validator
+```
+
 ## Usage
 
 ```js
