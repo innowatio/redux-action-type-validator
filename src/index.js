@@ -5,7 +5,7 @@ export default function actionTypeValidator (...types) {
         for (var i = 0; i < types.length; i++) {
             const error = validate(args[i], types[i]).firstError();
             if (error) {
-                throw error.message;
+                throw new Error(error.message);
             }
         }
     };

@@ -12,11 +12,11 @@ describe("`actionTypeValidator` function", () => {
 
     it("should throw an `Error` if the types of the args aren't the expected types", () => {
         const retFunction = actionTypeValidator(tuple([String, Number]));
-        const argument = ["firstArgument", "seconddArgument"];
+        const argument = ["firstArgument", "secondArgument"];
         function troublemaker () {
             retFunction(argument);
         }
-        expect(troublemaker).to.throw();
+        expect(troublemaker).to.throw('Invalid value "secondArgument" supplied to /1: Number');
     });
 
     it("shouldn't throw an `Error` if the types of the args are the expected types", () => {
